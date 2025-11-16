@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66a9f120-ecfc-49fc-b484-10f07382a776" name="Changes" comment="" />
+    <list default="true" id="66a9f120-ecfc-49fc-b484-10f07382a776" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Saucedemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Saucedemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Saucedemo/logs/browserstack-plugin.log" beforeDir="false" afterPath="$PROJECT_DIR$/../Saucedemo/logs/browserstack-plugin.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Saucedemo/src/test/java/pages/YourCartPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Saucedemo/src/test/java/pages/YourCartPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Saucedemo/src/test/java/tests/SwagLabsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Saucedemo/src/test/java/tests/SwagLabsTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../Saucedemo" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hi-mehedi"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hi-mehedi/SwagLabs.git",
+    "accountId": "9379d4c6-b6f5-4e2f-86df-acb029fb28e5"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -29,6 +49,7 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "TestNG.C:/Users/INSPIRED TECH/IdeaProjects/Saucedemo/src/test/resources/test1.xml.executor": "Run",
     "TestNG.HomePageTest.executor": "Run",
     "TestNG.HomePageTest.homeTest.executor": "Run",
@@ -39,6 +60,7 @@
     "TestNG.TestE.Test1.executor": "Run",
     "TestNG.TextBoxPageTest.executor": "Run",
     "TestNG.tests.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/INSPIRED TECH/IdeaProjects/Saucedemo/src/main/java/org/example/Main.java"
   }
@@ -166,7 +188,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../Saucedemo/src/test/java/pages/YourCartPage.java</url>
-          <line>8</line>
+          <line>11</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">

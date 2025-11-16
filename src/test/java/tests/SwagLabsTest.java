@@ -27,6 +27,7 @@ public class SwagLabsTest extends BaseTest {
             Assert.assertTrue(yourCartPage.isYourCartPageDisplayed(),"Your Cart button not displayed");
             Assert.assertEquals(homePage.getText(), yourCartPage.getTextCart(), "Product name is no equal");
             yourCartPage.clickMenuBtn();
+            yourCartPage.waitForLogOutBtn();
             yourCartPage.clickLogOutBtn();
         }
     }

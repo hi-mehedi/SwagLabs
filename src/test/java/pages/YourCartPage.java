@@ -4,6 +4,9 @@ import aquality.selenium.elements.interfaces.IButton;
 import aquality.selenium.elements.interfaces.IElement;
 import aquality.selenium.forms.Form;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+
+import static aquality.selenium.browser.AqualityServices.getBrowser;
 
 public class YourCartPage extends Form {
     private final IElement vText = getElementFactory().getLabel(By.cssSelector(".inventory_details_name.large_size"), "Get Text");
@@ -23,7 +26,13 @@ public class YourCartPage extends Form {
     }
 
     public void clickMenuBtn(){
-        menuBtn.click();
+        menuBtn.state().waitForDisplayed(); // Wait until menu button is visible
+        ((JavascriptExecutor) getBrowser().getDriver())
+                .executeScript("arguments[0].click();", menuBtn.getElement());
+    }
+
+    public void waitForLogOutBtn(){
+        logOut.state().waitForDisplayed();
     }
 
     public void clickLogOutBtn(){
